@@ -117,6 +117,7 @@
     overflow: hidden;
 
     background-color: var(--light-bg);
+    box-shadow: 0 0 10rem 1rem var(--black75);
 
     z-index: 10;
 
