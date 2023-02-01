@@ -12,6 +12,7 @@
     --black5: #261f2210;
 
     --my-work-gray: #34313C;
+    --my-work-orange: #FFB955;
 
     --montserrat: 'Montserrat', sans-serif;
     --roboto: 'Roboto', sans-serif;
@@ -302,11 +303,26 @@
   margin-top: 2rem;
   
   text-align: center;
-  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: baseline;
  }
 
- .clients-list__icons i + i{
+ .clients-list__icons i + i,
+ .clients-list__icons img,
+ .fa-apple
+ {
   margin-left: 1rem;
+ }
+
+ .clients-list__icons i{
+  font-size: 1.5rem;
+ }
+
+ .clients-list__icons img{
+  height: 1.5rem;
  }
 
 /* MY WORK SECTION */
@@ -334,7 +350,7 @@
   color: var(--black75);
 }
 
-.my-work__first-pic {
+.my-work__first-pic{
   margin-top: 5rem;
   position: relative;
   height: 50vw;
@@ -350,4 +366,59 @@
   transform: translateX(-50%);
 
   width: 80%;
+}
+
+.my-work__second-pic{
+  margin-top: 9rem;
+  position: relative;
+  height: 25rem;
+  
+  background-color: var(--my-work-orange);
+}
+
+.my-work__second-pic img{
+  position: absolute;
+  width: 70%;
+}
+
+.card-1{
+  left: 50%;
+  top: 4rem;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
+.card-2{
+  left: 50%;
+  transform: translateX(-35%);
+  top: 10rem;
+  z-index: 19;
+}
+
+.card-3{
+  top:15rem;
+  right: 50%;
+  transform: translateX(55%);
+  z-index: 18;
+}
+
+.card-4{
+  top: 11rem;
+  right: 25%;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial{
+  margin-top: 9rem;
+  width: min(472px, 80%);
+  margin: 9rem auto 0 auto;
+}
+
+.testimonial p{
+  font-family: var(--roboto);
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 300;
+  color: var(--black50);
 }
