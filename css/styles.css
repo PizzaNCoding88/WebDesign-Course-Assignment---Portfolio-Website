@@ -11,6 +11,8 @@
     --black10: #261f2225;
     --black5: #261f2210;
 
+    --my-work-gray: #34313C;
+
     --montserrat: 'Montserrat', sans-serif;
     --roboto: 'Roboto', sans-serif;
 }
@@ -26,6 +28,8 @@
   
   body {
     min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
     background-color: var(--light-bg);
   }
   
@@ -276,6 +280,7 @@
 
  .clients-list{
   background-color: var(--black5);
+  padding-bottom: 4rem;
  }
 
  .clients-list__container{
@@ -303,3 +308,45 @@
   margin-left: 1rem;
  }
 
+/* MY WORK SECTION */
+
+.my-work__container{
+  width: min(472px, 80%);
+  margin: 0 auto;
+}
+
+.my-work__container h3{
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: var(--montserrat);
+
+  margin-top: 6rem
+}
+
+.my-work__container p{
+  margin-top: 2rem;
+
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--black75);
+}
+
+.my-work__first-pic {
+  margin-top: 5rem;
+  position: relative;
+  height: 50vw;
+  
+  background-color: var(--my-work-gray);
+}
+
+.my-work__first-pic img{
+  position: absolute;
+
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 80%;
+}
