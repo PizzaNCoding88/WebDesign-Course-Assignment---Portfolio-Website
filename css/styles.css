@@ -155,7 +155,7 @@
 
   .active{
     left: 0;
-    /* z-index: -10; */
+    z-index: 5;
   }
 
   .header-navigation-menu ul {
@@ -256,6 +256,7 @@
 
   transition: 250ms;
 
+  z-index: -10;
  }
 
  .fa-arrow-down{
