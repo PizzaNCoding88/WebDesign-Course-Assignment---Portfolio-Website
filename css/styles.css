@@ -13,6 +13,7 @@
 
     --my-work-gray: #34313C;
     --my-work-orange: #FFB955;
+    --my-work-cyan: #B5E3DB;
 
     --montserrat: 'Montserrat', sans-serif;
     --roboto: 'Roboto', sans-serif;
@@ -415,10 +416,78 @@
   margin: 9rem auto 0 auto;
 }
 
-.testimonial p{
+.testimonial :first-child{
   font-family: var(--roboto);
   font-size: 1.75rem;
   text-align: center;
   font-weight: 300;
   color: var(--black50);
+}
+
+.testimonial__icons {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.testimonial__icons :first-child{
+  position: absolute;
+  left: calc(50% - 17%);
+  z-index: -1;
+}
+
+.testimonial__icons :nth-child(2){
+  position: absolute;
+  left: calc(50% - 5%);
+}
+
+.testimonial__quote-author{
+  font-family: var(--montserrat);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.testimonial__quote-author-position {
+  font-family: var(--montserrat);
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+/* MY WORK 3 SECTION */
+
+.my-work-3{
+  height: 55vw;
+  margin-top: 10rem;
+
+  background-color: var(--my-work-cyan);
+  position: relative;
+}
+
+.my-work-3__container{
+  width: 80%;
+
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* CTA SECTION  */
+
+.cta{
+  margin-top: 10rem;
+}
+
+.cta__container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cta__container h4 {
+  font-family: var(--montserrat);
+  font-weight: 600;
+  text-align: center;
 }
