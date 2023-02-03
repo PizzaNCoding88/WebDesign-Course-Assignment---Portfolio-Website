@@ -1,3 +1,5 @@
+//SIDEBAR
+
 const hamburger = document.querySelector(".fa-bars");
 const closeMenu = document.querySelector(".fa-xmark");
 const overlay = document.querySelector(".overlay");
