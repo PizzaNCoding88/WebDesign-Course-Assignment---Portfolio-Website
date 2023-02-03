@@ -1,0 +1,41 @@
+/* ABOUT SECTION  */
+
+.about__hero {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+.about__hero h2 {
+    margin-top: 6rem;
+
+    font-family: var(--montserrat);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .about__hero p {
+    margin-top: 2rem;
+
+    font-family: var(--roboto);
+    font-size: .9rem;
+    font-weight: 300;
+    color: var(--black75);
+    line-height: 1.5rem;
+
+  }
+
+  /* IMAGE GALLERY */
+
+  .image-gallery__container {
+    margin-top: 6rem;
+  }
+
+  
+.image-gallery__container img + img {
+    margin-top: 2rem;
+  }
+
+  .image-gallery__container img {
+    box-shadow: 0 1rem 1.5rem 0 var(--black10);
+  }
