@@ -39,3 +39,79 @@
   .image-gallery__container img {
     box-shadow: 0 1rem 1.5rem 0 var(--black10);
   }
+
+  /* PROMISES SECTION  */
+
+  
+.promises {
+    width: 80%;
+    margin: 6rem auto 0 auto;
+  }
+
+.promises h3 {
+    font-size: 2rem;
+    font-family: var(--montserrat);
+}
+
+.alarm-clock-icon {
+    height: 2.5rem;
+    margin-top: 4rem;
+}
+
+.medal-icon {
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+.promises h5 {
+    margin-top: 2rem;
+    font-family: var(--montserrat);
+    font-weight: 700;
+}
+
+.promises p {
+    margin-top: 1.5rem;
+    font-family: var(--montserrat);
+    line-height: 1.5rem;
+}
+
+/* TESTIMONIAL */
+
+.about__testimonial {
+    margin-top: 6rem;
+    background: var(--black5);
+    padding-block: 4rem;
+  }
+  
+.about__testimonial-1,
+.about__testimonial-2 {
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 4rem;
+    background: var(--light-bg);
+
+    box-shadow: 0 1rem 1.5rem 0 var(--black10);
+}
+
+.about__testimonial-1__container,
+.about__testimonial-2__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial__icons :first-child{
+    position: absolute;
+    left: calc(50% - 17%);
+    z-index: 0;
+}
+
+.about__testimonial h5 {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    text-align: center;
+}
+
+.about__testimonial-2{
+    margin-top: 2rem;
+}
