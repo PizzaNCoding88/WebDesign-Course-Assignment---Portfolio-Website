@@ -1,0 +1,90 @@
+
+:root{
+    --brand-gradient: #FE572E;
+    --accent: #FC3A79;
+    --secondary: #FE572E;
+    --light-bg: #F3F2F1;
+    --black: #261F22;
+    --black75: #261f22c5;
+    --black50: #261f2280;
+    --black25: #261f2249;
+    --black10: #261f2225;
+    --black5: #261f2210;
+
+    --my-work-gray: #34313C;
+    --my-work-orange: #FFB955;
+    --my-work-cyan: #B5E3DB;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--light-bg);
+  }
+  
+  html {
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+    text-size-adjust: none; /* for other mobile browsers */
+    scroll-behavior: smooth;
+  }
+  
+  img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+  }
+  
+  menu:not(article menu),
+  ol:not(article ol),
+  ul:not(article ul) {
+      list-style: none;
+  }
+  
+  menu,
+  ol,
+  ul {
+      padding-left: 0;
+  }
+  
+  label,
+  button,
+  select,
+  summary,
+  [type=radio],
+  [type=submit],
+  [type=checkbox] {
+      cursor: pointer;
+  }
+
+  .top-section{
+    height: 100vh;
+  }
+  
+
+ 
+
+
+
+/* IMAGES & BUTTONS SHADOW */
+
+.my-work-3__container img,
+.card-3,
+.my-work__first-pic img{
+  box-shadow: 0 1rem 1.5rem 0 var(--black10);
+}
+
+.hero button,
+.cta__container button{
+  box-shadow: 0 0.5rem 1rem 0 var(--black10);
+}

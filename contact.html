@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Fox - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about-body.css">
+    <link rel="stylesheet" href="css/contact-body.css">
+    <script src="https://kit.fontawesome.com/16aa083a7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="header">
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assets/Logo.svg" alt="">
+                </div>
+            </a>
+            <div class="header-hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="header-navigation-menu">
+                <i class="fa-solid fa-xmark"></i>
+                <ul>
+                    <a href="about.html">
+                        <li>About Me</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+                <div class="contacts">
+                    <p>hello@robertfox.design</p>
+                    <p>(704) 555-0127</p>
+                </div>
+                <div class="social">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-solid fa-basketball"></i>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </nav>
+    
+    <section class="cta__contact">
+        <div class="cta__container">
+            <h4>I’m currently available for freelance work.</h4>
+            <p>If you’re looking for a designer and developer that likes to get stuff done, let’s talk.</p>
+            <button>hello@robertfox.design</button>
+            <button class="telephone">(704) 555-0127</button>
+        </div>
+    </section>
+
+    <section class="qna">
+        <div class="qna__container">
+            <h3>Before sending me a message, here are some things you should know:</h3>
+            <div class="expandable-container">
+                <div class="question-container-wrapper">
+                    <div class="question-container">
+                        <div class="image-container">
+                            <img id="plusIcon" src="https://img.icons8.com/ios-glyphs/15/FF0000/plus-math.png" alt="">
+                        </div>
+                        <p class="question">What timezone are you in?</p>
+                        <p class="answer">I am currently in the Greenwich Mean Time timezone</p>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <div class="question-container-wrapper">
+                    <div class="question-container">
+                        <div class="image-container">
+                            <img id="plusIcon" src="https://img.icons8.com/ios-glyphs/15/FF0000/plus-math.png" alt="">
+                        </div>
+                        <p class="question">Do we make a contract?</p>
+                        <p class="answer">It' completely up to you</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="question-container-wrapper">
+                    <div class="question-container">
+                        <div class="image-container">
+                            <img id="plusIcon" src="https://img.icons8.com/ios-glyphs/15/FF0000/plus-math.png" alt="">
+                        </div>
+                        <p class="question">How much do you charge for a website?</p>
+                        <p class="answer">It all depends on the website specifics. The range goes from 300 to 1000+</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="question-container-wrapper">
+                    <div class="question-container">
+                        <div class="image-container">
+                            <img id="plusIcon" src="https://img.icons8.com/ios-glyphs/15/FF0000/plus-math.png" alt="">
+                        </div>
+                        <p class="question">Do you charge by the hour?</p>
+                        <p class="answer">I do not charge by the hour. I prefer to eliminate the stress of counting the hours. Instead, I charge a flat fee per project, regardless of duration.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="question-container-wrapper">
+                    <div class="question-container">
+                        <div class="image-container">
+                            <img id="plusIcon" src="https://img.icons8.com/ios-glyphs/15/FF0000/plus-math.png" alt="">
+                        </div>
+                        <p class="question">Are you working with a team?</p>
+                        <p class="answer">I am a solo player at the moment, but can get some help if required. It will all be spcified in the final quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+            <h3>Got a project in mind?</h3>
+            <p>Use the form to give me as much detail as possible and I’ll get back to you as soon as I can. <br> <br> Alternatively, get in touch using the information below or contact me via social media.</p>
+            <p class="email">hello@robertfox.design</p>
+            <p class="phone">(704) 555-0127</p>
+            <form action="">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="#name" placeholder="John Smith">
+
+                <label for="email">Your Email Address</label>
+                <input type="email" name="email" id="#email" placeholder="johnsmith223@domain.com">
+
+                <label for="project">Project Details</label>
+                <textarea name="project" id="#project" cols="30" rows="10" placeholder="Type your message..."></textarea>
+
+                <label for="name">Your Budget Range</label>
+                <input type="text" name="name" id="#name" placeholder="Select an option">
+
+                <label for="name">Your Timeline</label>
+                <input type="text" name="name" id="#name" placeholder="Select an option">
+            </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-basketball"></i>
+            </div>
+
+            <div class="privacy_terms">
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <br>
+            <p class="copyright">(c) Copyright Robert Fox 2022. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="qna.js"></script>
+</body>
+</html>

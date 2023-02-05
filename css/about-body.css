@@ -1,0 +1,285 @@
+/* ABOUT SECTION  */
+
+.about__hero {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+.about__hero h2 {
+    margin-top: 6rem;
+
+    font-family: var(--montserrat);
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .about__hero p {
+    margin-top: 2rem;
+
+    font-family: var(--roboto);
+    font-size: .9rem;
+    font-weight: 300;
+    color: var(--black75);
+    line-height: 1.5rem;
+
+  }
+
+  /* IMAGE GALLERY */
+
+  .image-gallery__container {
+    margin-top: 6rem;
+  }
+
+  
+.image-gallery__container img + img {
+    margin-top: 2rem;
+  }
+
+  .image-gallery__container img {
+    box-shadow: 0 1rem 1.5rem 0 var(--black10);
+  }
+
+  /* PROMISES SECTION  */
+
+  
+.promises {
+    width: 80%;
+    margin: 6rem auto 0 auto;
+  }
+
+.promises h3 {
+    font-size: 2rem;
+    font-family: var(--montserrat);
+}
+
+.alarm-clock-icon {
+    height: 2.5rem;
+    margin-top: 4rem;
+}
+
+.medal-icon {
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+.promises h5 {
+    margin-top: 2rem;
+    font-family: var(--montserrat);
+    font-weight: 700;
+}
+
+.promises p {
+    margin-top: 1.5rem;
+    font-family: var(--montserrat);
+    line-height: 1.5rem;
+}
+
+/* TESTIMONIAL */
+
+.about__testimonial {
+    margin-top: 6rem;
+    background: var(--black5);
+    padding-block: 4rem;
+  }
+  
+.about__testimonial-1,
+.about__testimonial-2 {
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 4rem;
+    background: var(--light-bg);
+
+    box-shadow: 0 1rem 1.5rem 0 var(--black10);
+}
+
+.about__testimonial-1__container,
+.about__testimonial-2__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial__icons :first-child{
+    position: absolute;
+    left: calc(50% - 17%);
+    z-index: 0;
+}
+
+.about__testimonial h5 {
+    font-family: var(--montserrat);
+    font-weight: 600;
+    text-align: center;
+}
+
+.about__testimonial-2{
+    margin-top: 2rem;
+}
+
+/* PROMISES SECTION */
+
+.about__promises__container {
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 6rem;
+  }
+
+  .about__promises__container__top,
+  .about__promises__container__middle,
+  .about__promises__container__bottom  {
+    margin-bottom: 2rem;
+  }
+
+  .about__promises__container {
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 6rem;
+  }
+  
+  .about__promises__container__top {
+    margin-bottom: 2rem;
+  }
+  
+  .about__promises__container img {
+    margin-bottom: 2rem;
+    height: 2.5rem;
+  }
+  
+  .about__promises__container h5 {
+    line-height: 1.5rem;
+    /*! font-size: 1rem; */
+    font-family: var(--montserrat);
+    font-weight: 600;
+  }
+  
+  .about__promises__container p {
+    margin-top: 2rem;
+    line-height: 1.3rem;
+    font-family: var(--montserrat);
+    font-size: .9rem;
+  }
+
+  /* SKILLS SECTION */
+
+  .skills__selector{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .skills__selector__container{
+    height: 5rem;
+
+    background-color: var(--black5);
+    border-radius: 5rem;
+  }
+
+  .skills__selector__box{
+    width: 50%;
+    border-radius: 5rem;
+    height: 4rem;
+    position: relative;
+    
+  }
+
+  .skills__selector__container img {
+    height: 2rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 100;
+  }
+
+
+  .skills__selector__container {
+    height: 5rem;
+    padding-inline: 1rem;
+
+    background-color: var(--black5);
+    border-radius: 5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  .skills_list__container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+  .skills-block {
+    background: var(--black5);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.skills-block:hover{
+  background: var(--black10);
+}
+
+  .skills-block img {
+    display: inline-block;
+    margin-left: 1.51rem;
+    height: 2rem;
+}
+
+  .skills-block h6 {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    vertical-align: center;
+    margin-left: 1rem;
+}
+
+  .skills-block + .skills-block{
+    margin-top: 1rem; 
+}
+
+#skills__selector__box-left{
+  background-image: url(https://img.icons8.com/ios/50/null/roller-brush--v1.png);
+}
+
+#skills__selector__box-right{
+  background-image: url(https://img.icons8.com/ios/50/null/source-code.png);
+}
+
+#skills__selector__box-left,
+#skills__selector__box-right{  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+}
+
+#skills__selector__box-left:hover,
+#skills__selector__box-right:hover{
+  background-color: black;
+}
+#skills__selector__box-left:hover{
+  background-image: url(https://img.icons8.com/ios/50/null/FFFFFF/roller-brush--v1.png);
+}
+
+#skills__selector__box-right:hover{
+  background-image: url(https://img.icons8.com/ios/50/null/FFFFFF/source-code.png);
+}
+
+.activeSelector{
+  border: 0.15rem solid black;
+
+  transition: 250ms ease-in-out;
+}
+
+.dsp-no{
+  display: none;
+}
+
+/* CTA */
+
+.cta__about {
+  margin-top: 4rem;
+}

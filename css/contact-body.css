@@ -1,0 +1,182 @@
+/* CTA SECTION */
+
+.cta__contact {
+    margin-top: 6rem;
+}
+
+.cta__contact h4 {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.cta__contact button{
+    background: var(--accent);
+
+    border-radius: 0.5rem;
+
+    font-size: 0.8rem;
+
+    box-shadow: none;
+}
+
+.cta__contact button + button {
+    margin-top: 2rem;
+}
+
+.cta__contact button.telephone{
+    background-color: var(--black5);
+    color: var(--black);
+}
+
+/* Q&A */
+
+.qna{
+    margin-top: 6rem;
+
+    background-color: var(--black5);
+}
+
+.qna__container{
+    width: 80%;
+    margin: 0 auto;
+
+    padding-bottom: 5rem;
+}
+
+.qna__container h3{
+    font-size: 1.3rem;
+    font-family: var(--montserrat);
+    font-weight: 400;
+
+    line-height: 2rem;
+
+    padding-top: 5rem;
+}
+
+
+.expandable-container {
+    margin-top:2rem;
+    
+}
+
+.image-container{
+    display: inline-block;
+    padding-top: 0.1rem;
+
+    position: relative;
+    top: 0.15rem;
+
+    cursor: pointer;
+}
+
+.question{
+    font-family: var(--roboto);
+    font-size: 0.9rem;
+    color: var(--black50);
+
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+
+    display: inline;
+
+}
+
+.question{
+    margin-top: 2rem;
+}
+
+.question:hover{
+    color: var(--black);
+    cursor: pointer;
+}
+
+.question-container{
+    margin-top: 2rem;
+}
+
+
+
+.answer {
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+
+    font-family: var(--roboto);
+    font-size: 0.9rem;
+
+    display: none;
+}
+
+hr{
+    color: var(--black10);
+    margin-top: 2rem;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+
+    margin-top: 6rem;
+}
+
+.contact-form h3{
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-form p{
+    margin-top: 2rem;
+
+    font-family: var(--montserrat);
+    font-size: 0.9rem;
+
+    color: var(--black75);
+}
+
+.contact-form .email {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.contact-form .phone{
+    color: var(--black);
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.contact-form form{
+    margin-top: 4rem;
+}
+
+
+.contact-form form label {
+    display: block;
+
+    font-family: var(--roboto);
+    font-weight: 600;
+    line-height: 2rem;
+
+    margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 0.3rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    background-color: var(--black5);
+    text-indent: 0.5rem;
+  }
+
+
+.contact-form textarea::-moz-placeholder{
+    font-family: var(--roboto);
+    font-size: .8em;
+}
