@@ -10,7 +10,7 @@ questions.forEach((quest, i) =>{
         if(active==0){
             plusIcon[i].src = "https://img.icons8.com/ios-glyphs/15/FF0000/minus-math.png";
             questions[i].style.fontWeight = "800";
-            questions[i].style.color = "var(--black)";
+            questions[i].style.color = "var(--black75)";
             answers[i].style.display = "block";
             active = 1;
         } else{
@@ -23,6 +23,3 @@ questions.forEach((quest, i) =>{
     })
 })
 
-//answer display none
-//question font-color var black50 and font weight 400
-//change icon back to plus
