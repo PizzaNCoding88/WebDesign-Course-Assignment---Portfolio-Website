@@ -163,7 +163,8 @@ hr{
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
     width: 100%;
     padding: 1.5rem;
     margin-top: 0.3rem;
@@ -179,4 +180,27 @@ hr{
 .contact-form textarea::-moz-placeholder{
     font-family: var(--roboto);
     font-size: .8em;
+}
+
+.contact-form select:required:invalid{
+    color: var(--black50);
+}
+
+.contact-form option[value=""][disabled] {
+    display: none;
+}
+
+.contact-form button{
+    background-color: var(--brand-gradient);
+
+    border: none;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.5rem 2rem;
+
+    color: var(--light-bg);
+    font-family: var(--roboto);
+    font-weight: 500;
+
 }
