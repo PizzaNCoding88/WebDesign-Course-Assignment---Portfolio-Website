@@ -191,7 +191,7 @@ hr{
 }
 
 .contact-form button{
-    background-color: var(--brand-gradient);
+    background: linear-gradient(to right, #FE572E, #FF4C80);
 
     border: none;
     border-radius: 3rem;
@@ -204,3 +204,9 @@ hr{
     font-weight: 500;
 
 }
+
+.contact-form button img {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1rem;
+  }
