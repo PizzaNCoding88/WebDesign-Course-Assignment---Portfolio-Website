@@ -316,3 +316,52 @@
     border: none;
     border-radius: 2rem;
   }
+
+  @media (min-width: 600px) and (max-width: 1200px){
+    .hero, .testimonial{
+      width: 80%;
+    }
+    
+    .hero h1{
+      font-weight: 800;
+    }
+    
+    .hero button{
+      width: 15rem;
+      height: 5rem;
+    }
+  
+    .fa-arrow-down {
+      margin-left: 2vw
+    }
+  
+    .clients-list__icons i{
+      font-size: 2.5rem;
+     }
+
+     .testimonial{
+      margin: 20rem auto 6rem auto;;
+     }
+
+     .my-work-3__container {
+      width: 90%;
+    }
+
+    .my-work-3__container img{
+      width: 100%;
+    }
+
+    .cta {
+      margin-top: 15rem;
+    }
+
+    .cta__container h4{
+      text-align: left;
+    }
+
+    .cta__container button{
+      width: 22rem;
+      height: 5rem;
+      border-radius: 5rem;
+    }
+  }

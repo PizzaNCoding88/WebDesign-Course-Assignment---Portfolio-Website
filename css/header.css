@@ -71,6 +71,8 @@
 
   .header-navigation-menu li{
     margin-top: 3rem;
+    font-size: 5vw;
+    font-weight: 400;
   }
 
   .overlay{
@@ -82,8 +84,6 @@
     left: 100%;
 
     background-color: var(--black75);
-
-    /* z-index: -10; */
 
   }
 
@@ -133,4 +133,32 @@
 
  .social i+i{
   margin-left: 2.5vw;
+ }
+
+ .social-tb-dkt{
+  display: none;
+ }
+
+
+ @media (min-width: 600px) and (max-width: 1200px){
+  .social-tb-dkt{
+    display: inline;
+    margin-right: 5vw;
+  }
+
+  .social-tb-dkt i + i{
+    margin-left: 2.5vw;
+  }
+
+  .social{
+    display: none;
+  }
+
+  .header-container,
+  .hero{
+    width: 80%;
+  }
+
+  
+    
  }
