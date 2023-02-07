@@ -38,6 +38,7 @@
 
   .image-gallery__container img {
     box-shadow: 0 1rem 1.5rem 0 var(--black10);
+    width: 100%;
   }
 
   /* PROMISES SECTION  */
@@ -51,6 +52,7 @@
 .promises h3 {
     font-size: 2rem;
     font-family: var(--montserrat);
+    font-weight: 400;
 }
 
 .alarm-clock-icon {
@@ -100,10 +102,9 @@
     margin: 0 auto;
 }
 
-.testimonial__icons :first-child{
-    position: absolute;
-    left: calc(50% - 17%);
-    z-index: 0;
+
+.testimonial__icons img{
+  height: 64px;
 }
 
 .about__testimonial h5 {
@@ -260,6 +261,7 @@
 #skills__selector__box-right:hover{
   background-color: black;
 }
+
 #skills__selector__box-left:hover{
   background-image: url(https://img.icons8.com/ios/50/null/FFFFFF/roller-brush--v1.png);
 }
@@ -272,6 +274,11 @@
   border: 0.15rem solid black;
 
   transition: 250ms ease-in-out;
+}
+
+#skills__selector__box-left p,
+#skills__selector__box-right p{
+  display: none;
 }
 
 .dsp-no{
@@ -301,4 +308,27 @@
     margin-top: 0;
   }
  
+  .skills__selector{
+    width: 22rem;
+  }
+
+  #skills__selector__box-left p,
+  #skills__selector__box-right p{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: var(--black50);
+    font-weight: 600;
+  }
+
+  #skills__selector__box-left,
+  #skills__selector__box-right{
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills__selector__box-left:hover{
+  background-image: none;
+}
 }
