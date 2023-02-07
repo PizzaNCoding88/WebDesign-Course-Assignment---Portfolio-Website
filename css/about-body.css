@@ -283,3 +283,22 @@
 .cta__about {
   margin-top: 4rem;
 }
+
+@media (min-width: 600px) and (max-width: 1200px){
+  .image-gallery__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+  }
+
+  .image-gallery__container img{
+    width: 30%;
+    height: 100%;
+  }
+
+  .image-gallery__container img + img {
+    margin-top: 0;
+  }
+ 
+}
