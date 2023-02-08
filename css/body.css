@@ -308,6 +308,7 @@
   }
 
   @media (min-width: 600px) and (max-width: 1200px){
+
     .hero, .testimonial{
       width: 80%;
     }
@@ -330,7 +331,11 @@
      }
 
      .testimonial{
-      margin: 20rem auto 6rem auto;;
+      margin: 40% auto 6rem auto;;
+     }
+
+     .my-work__second-pic {
+      margin-top: 18%;
      }
 
      .my-work-3__container {
@@ -355,3 +360,84 @@
       border-radius: 5rem;
     }
   }
+
+  @media (min-width: 1200px){
+    .hero{
+      width: 90%;
+    }
+
+    .hero h1{
+      /* margin-inline: 12rem; */
+
+      font-size: 7vw;
+
+      margin-top: 3rem;
+    }
+
+    .hero h3{
+      margin-top: 4rem;
+    }
+
+    .hero p{
+      padding-inline: 10vw;
+      
+      margin-top: 3rem;
+    }
+
+    .hero button{
+      margin-top: 5rem;
+
+      width: 30%;
+    }
+
+    .fa-arrow-down{
+      margin-left: 2rem;
+    }
+
+    .my-work__second-pic {
+      margin-top: 18%;
+     }
+
+     .testimonial {
+      margin: 40% auto 0 auto;
+    }
+
+    .my-work-3 {
+      margin-top: 15%;
+
+      background-color: var(--my-work-red);
+      
+    }
+
+    .my-work-3__container img {
+      width: 100%;
+    }
+
+    .cta__container h4 {
+      text-align: left;
+    }
+
+    .cta__container .email,
+    .cta__container .phone {
+      display: inline-block;
+    }
+
+    .cta__container .phone{
+      margin-left: 2rem;
+  }
+
+  .cta__container .email{
+    font-size: 1rem;
+  }
+
+  .cta__container button {
+    display: block;
+    width: 22rem;
+  }
+
+  .cta__container a{
+    text-decoration: none;
+  }
+
+
+}

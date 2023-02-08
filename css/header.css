@@ -185,9 +185,17 @@
   }
   
   .logo{
-    display: inline;
+    display: inline-block;
 
     margin-right: 2rem;
+
+    height: 3rem;
+
+    position: relative;
+  }
+
+  .logo img{
+    transform: translateY(-50%);
   }
 
   .header-container a{
@@ -252,6 +260,5 @@
   #email{
     color: var(--accent);
   }
-
   
  }
