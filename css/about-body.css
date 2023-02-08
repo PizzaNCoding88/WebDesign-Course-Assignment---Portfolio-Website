@@ -328,8 +328,14 @@
   align-items: center;
 }
 
-#skills__selector__box-left:hover{
-  background-image: none;
-  color: blue;
-}
+  #skills__selector__box-left:hover,
+  #skills__selector__box-right:hover{
+    background-image: none;
+  }
+
+  #skills__selector__box-left:hover p,
+  #skills__selector__box-right:hover p{
+    color: white;
+  }
+
 }

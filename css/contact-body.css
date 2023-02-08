@@ -17,6 +17,10 @@
     font-size: 0.8rem;
 
     box-shadow: none;
+
+    width: 100%;
+
+    display: block;
 }
 
 .cta__contact button + button {
@@ -211,4 +215,48 @@ hr{
     display: inline;
     vertical-align: middle;
     margin-left: 1rem;
+  }
+
+  @media (min-width: 600px) and (max-width: 1200px){
+    .cta__contact button {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .cta__contact button + button {
+        margin-left: 9%;
+    }
+
+    .contact-form .email,
+    .contact-form .phone{
+        display: inline-block;
+    }
+
+    .contact-form .phone{
+        margin-left: 2rem;
+    }
+    
+    /* .contact-form form label{
+        display: inline-block;
+    }
+
+    .contact-form form select{
+        display: inline-block;
+        width: 45%;
+    } */
+
+    .contact-form-selection-area{
+        display: flex;
+        gap: 9%;
+    }
+
+    .contact-form-selection-area__1,
+    .contact-form-selection-area__2{
+        width: 45%;
+    }
+
+    .contact-form-selection-area select{
+        margin-right: 1rem;
+    }
+
   }
