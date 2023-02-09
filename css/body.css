@@ -228,6 +228,7 @@
     text-align: center;
     font-weight: 500;
     font-size: 1rem;
+    margin-top: 15%;
   }
   
   .testimonial__quote-author-position {
@@ -331,11 +332,16 @@
      }
 
      .testimonial{
-      margin: 40% auto 6rem auto;;
+      margin-top: min(45%,20rem);
+     }
+
+     .testimonial__quote-author {
+      margin-top: 10%;
      }
 
      .my-work__second-pic {
       margin-top: 18%;
+      height: 50vw;
      }
 
      .my-work-3__container {
@@ -396,21 +402,34 @@
 
     .my-work__second-pic {
       margin-top: 18%;
+      height: 50vw;
      }
 
      .testimonial {
-      margin: 40% auto 0 auto;
+      margin-top: max(20%,10rem);
+      width: max(472px, 80%);
     }
+
+    .testimonial__quote-author {
+      margin-top: 10%;
+     }
 
     .my-work-3 {
       margin-top: 15%;
 
       background-color: var(--my-work-red);
-      
+    }
+
+    .my-work-3__container {
+      top: 15%;
     }
 
     .my-work-3__container img {
       width: 100%;
+    }
+
+    .cta{
+      margin-top: 15%;
     }
 
     .cta__container h4 {

@@ -318,6 +318,12 @@
     font-size: 1.2rem;
     color: var(--black50);
     font-weight: 600;
+    font-family: var(--roboto);
+  }
+
+  .skills__selector__box-right__p,
+  .skills__selector__box-left__p{
+    display: none !important;
   }
 
   #skills__selector__box-left,
@@ -338,4 +344,110 @@
     color: white;
   }
 
+}
+
+
+@media (min-width: 1200px){
+
+  .image-gallery__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+
+    width: 110%;
+  }
+
+  .image-gallery__container:first-child{
+    align-items: baseline;
+  }
+
+  .about__testimonial {
+    display: flex;
+  }
+
+  .about__testimonial-1,
+  .about__testimonial-2{
+    width: 45%;
+  }
+
+  .about__testimonial-2{
+    margin-top: 0;
+  }
+
+  .about__promises__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%
+  }
+
+  .about__promises__container__top,
+  .about__promises__container__middle,
+  .about__promises__container__bottom{
+    width: min(30%, 355px);
+  }
+
+  .about__promises__container__middle h5{
+    padding-right: 4rem;
+  }
+
+  #skills__selector__box-left, #skills__selector__box-right {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .skills__selector__box-right__p,
+  .skills__selector__box-left__p{
+    display: inline !important;
+  }
+  
+  #skills__selector__box-left p,
+  #skills__selector__box-right p{
+    color: var(--black50);
+    font-weight: 600;
+    font-family: var(--roboto);
+  }
+  
+  #skills__selector__box-left:hover,
+  #skills__selector__box-right:hover{
+    background-image: none;
+  }
+
+  #skills__selector__box-left:hover p,
+  #skills__selector__box-right:hover p{
+    color: var(--light-bg);
+  }
+
+  .skills__selector {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .skills_list__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .skills-block{
+    width: 20%;
+    margin-top: 0;
+  }
+
+  .skills-block + .skills-block {
+    margin-top: 0;
+  }
+
+  .dsp-no {
+    display: none;
+  }
+
+  .cta__about {
+    margin-top: 10%;
+  }
 }
