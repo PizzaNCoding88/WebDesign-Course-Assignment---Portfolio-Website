@@ -150,16 +150,25 @@
     </section>
 
     <section class="contact-form">
-            <h3>Got a project in mind?</h3>
-            <p>Use the form to give me as much detail as possible and I’ll get back to you as soon as I can. <br> <br> Alternatively, get in touch using the information below or contact me via social media.</p>
-            <p class="email">hello@robertfox.design</p>
-            <p class="phone">(704) 555-0127</p>
-            <form action="">
-                <label for="name">Your Name</label>
-                <input type="text" name="name" id="#name" placeholder="John Smith">
 
-                <label for="email">Your Email Address</label>
-                <input type="email" name="email" id="#email" placeholder="johnsmith223@domain.com">
+            <div class="contact-form__details">
+                <h3>Got a project in mind?</h3>
+                <p>Use the form to give me as much detail as possible and I’ll get back to you as soon as I can. <br> <br> Alternatively, get in touch using the information below or contact me via social media.</p>
+                <p class="email">hello@robertfox.design</p>
+                <p class="phone">(704) 555-0127</p>
+            </div>
+            <form action="">
+                <div class="form-name-email">
+                    <div class="form-name">
+                        
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" id="#name" placeholder="John Smith">
+                    </div>
+                    <div class="form-email">
+                        <label for="email">Your Email Address</label>
+                        <input type="email" name="email" id="#email" placeholder="johnsmith223@domain.com">
+                    </div>
+                </div>
 
                 <label for="project">Project Details</label>
                 <textarea name="project" id="#project" cols="30" rows="10" placeholder="Type your message..."></textarea>
