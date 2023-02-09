@@ -34,8 +34,10 @@ const skillsSelectorBoxRight = document.querySelector("#skills__selector__box-ri
 const designSection = document.querySelector("#design-section");
 const devSection = document.querySelector("#dev-section");
 
-skillsSelectorBoxLeft.addEventListener("click", activeSelectorLeft);
-skillsSelectorBoxRight.addEventListener("click", activeSelectorRight);
+if (skillsSelectorBoxLeft && skillsSelectorBoxRight) {
+    skillsSelectorBoxLeft.addEventListener("click", activeSelectorLeft);
+    skillsSelectorBoxRight.addEventListener("click", activeSelectorRight);
+}
 
 function activeSelectorLeft(){
     if(!skillsSelectorBoxLeft.classList.contains("activeSelector")){
