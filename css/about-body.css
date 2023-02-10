@@ -219,10 +219,6 @@
     padding-block: 1rem;
 }
 
-.skills-block:hover{
-  background: var(--black10);
-}
-
   .skills-block img {
     display: inline-block;
     margin-left: 1.51rem;

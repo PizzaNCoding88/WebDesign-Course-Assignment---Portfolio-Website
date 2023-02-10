@@ -209,6 +209,7 @@ hr{
     font-family: var(--roboto);
     font-weight: 500;
 
+    transition: 250ms ease-in-out;
 }
 
 .contact-form button:hover {
