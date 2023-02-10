@@ -325,6 +325,7 @@
     .hero button{
       width: 15rem;
       height: 5rem;
+      margin-top: 12%;
     }
   
     .fa-arrow-down {
