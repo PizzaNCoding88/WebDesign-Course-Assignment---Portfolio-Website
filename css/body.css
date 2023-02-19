@@ -1,6 +1,6 @@
 /* HERO SECTION */
 
-.hero{
+  .hero{
     width: min(472px, 80%);
     margin: 0 auto;
    }
@@ -383,6 +383,7 @@
   }
 
   @media (min-width: 1200px){
+
     .hero{
       width: 90%;
     }
